@@ -13,7 +13,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body cz-shortcut-listen="true" className="bg-zinc-800 text-zinc-50">{children}</body>
+      <body cz-shortcut-listen="true" className="bg-zinc-900 text-zinc-50">{children}</body>
     </html>
   );
 }
